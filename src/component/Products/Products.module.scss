@@ -1,0 +1,180 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    justify-items: center;
+    padding: 0 1.25rem;
+}
+
+.item {
+    position: relative;
+    padding: 1.25rem 2.5rem;
+    border: 0.0625rem solid #f7e1e1;
+    height: 32rem;
+}
+
+.cost {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.img {
+    width: 100%;
+    height: 15rem;
+}
+
+.price {
+    color: #999999;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.225rem;
+}
+
+.text {
+    font-size: 1.3125rem;
+    font-weight: 600;
+    line-height: 1.8125rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 2.5rem;
+    width: 8.5625rem;
+    height: 2.8125rem;
+    padding: 0.625rem 1.25rem;
+    background-color: rgb(214, 151, 151);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.575rem;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.btn:active{
+    background-color: rgb(155, 113, 113);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn1 {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 2.5rem;
+    width: 8.5625rem;
+    height: 2.8125rem;
+    padding: 0.625rem 1.25rem;
+    background-color: rgb(214, 151, 151);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.575rem;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.btn1:hover {
+    opacity: 0.8;
+}
+
+.btn1:active{
+    background-color: rgb(155, 113, 113);
+}
+
+
+@media (max-width: 1024px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.25rem;
+        justify-items: center;
+        padding: 0 1.25rem;
+    }
+    
+    .item {
+        position: relative;
+        padding: 0.7rem 1.2rem;
+        border: 0.0625rem solid #f7e1e1;
+        height: 32rem;
+    }
+    
+    .cost {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    
+    .img {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    .price {
+        color: #999999;
+        font-weight: 400;
+        font-size: 0.6rem;
+        line-height: 1.225rem;
+    }
+    
+    .text {
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1.8125rem;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .btn {
+        position: absolute;
+        bottom: 1.25rem;
+        right: 2.5rem;
+        width: 5.5625rem;
+        height: 2rem;
+        padding: 0.625rem 0.6rem;
+        background-color: rgb(214, 151, 151);
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 600;
+        line-height: 1rem;
+        transition: all 0.2s;
+        text-align: center;
+    }
+    
+    .btn:active{
+        background-color: rgb(155, 113, 113);
+    }
+    
+    .btn:hover {
+        opacity: 0.8;
+    }
+    
+    .btn1 {
+        position: absolute;
+        bottom: 1.25rem;
+        left: 2.5rem;
+        width: 5.5625rem;
+        height: 2rem;
+        padding: 0.625rem 0.6rem;
+        background-color: rgb(214, 151, 151);
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 600;
+        line-height: 1rem;
+        transition: all 0.2s;
+        text-align: center;
+    }
+    
+    .btn1:hover {
+        opacity: 0.8;
+    }
+    
+    .btn1:active{
+        background-color: rgb(155, 113, 113);
+    }
+}

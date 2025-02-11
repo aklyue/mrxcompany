@@ -1,0 +1,102 @@
+.container {
+    width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+
+    .abonementBox {
+        width: 50%;
+    }
+
+    .services {
+        width: 50%;
+
+        .swiperWrapper{
+            position: relative;
+
+            .imageBox{
+                width: 100%;
+                height: 15.6rem;
+                padding: 1rem;
+                border: 1px solid hsla(30, 58%, 93%, 1);
+
+                .serviceImage{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .info{
+                    position: absolute;
+                    bottom: 2.5rem;
+                    left: 2.5rem;
+
+                    .serviceTitle{
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .topPart {
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .button {
+            background-color: hsla(246, 38%, 66%, 1);
+            padding: 1rem;
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+            transition: all 0.2s;
+        }
+
+        .button:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .title {
+        font-size: 2.25rem;
+        color: hsla(0, 0%, 20%, 1);
+        margin-bottom: 3rem;
+    }
+
+    .subscriptions {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        .subscription {
+            background-color: hsla(246, 38%, 66%, 1);
+            padding: 0 2rem;
+            color: white;
+            width: 100%;
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.1rem;
+            transition: all 0.2s;
+        }
+
+        .subscription:hover {
+            opacity: 0.8;
+        }
+    }
+}

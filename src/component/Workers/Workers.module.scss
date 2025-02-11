@@ -1,0 +1,190 @@
+.workerImage {
+    width: 10.375rem;
+    height: 100%;
+}
+
+.link {
+    color: hsla(0, 0%, 20%, 1);
+
+
+    .imageBox {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+    }
+}
+
+.slide {
+    transition: all 0.2s;
+}
+
+.slide:hover {
+    transform: scale(1.2);
+}
+
+.swiperWrapper {
+    width: 80rem;
+    margin: 0 auto;
+    height: 35rem;
+}
+
+.component {
+    margin-top: 5rem;
+}
+
+.topPart {
+    width: 80rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .button {
+        background-color: rgb(214, 151, 151);
+        padding: 1rem;
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+        transition: all 0.2s;
+    }
+
+    .button:hover {
+        opacity: 0.8;
+    }
+
+    .button:active{
+        background-color: rgb(155, 113, 113);
+    }
+}
+
+.title {
+    font-size: 2.25rem;
+    color: hsla(0, 0%, 20%, 1);
+}
+
+.info {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+
+    .workerName {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .workerText {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .workerImage {
+        width: 7.375rem;
+        height: 100%;
+    }
+    
+    .link {
+        color: hsla(0, 0%, 20%, 1);
+    
+    
+        .imageBox {
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+    
+        }
+    }
+    
+    .slide {
+        transition: all 0.2s;
+    }
+    
+    .slide:hover {
+        transform: scale(1.2);
+    }
+    
+    .swiperWrapper {
+        width: 50rem;
+        margin: 0 auto;
+        height: 25rem;
+    }
+    
+    .component {
+        margin-top: 5rem;
+    }
+    
+    .topPart {
+        width: 50rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    
+        .button {
+            background-color: rgb(214, 151, 151);
+            padding: 1rem;
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+            transition: all 0.2s;
+        }
+    
+        .button:hover {
+            opacity: 0.8;
+        }
+    
+        .button:active{
+            background-color: rgb(155, 113, 113);
+        }
+    }
+    
+    .title {
+        font-size: 1.25rem;
+        color: hsla(0, 0%, 20%, 1);
+    }
+    
+    .info {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    
+        .workerName {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    
+        .workerText {
+            font-size: 0.9rem;
+        }
+    }
+}

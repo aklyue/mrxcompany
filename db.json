@@ -1,0 +1,323 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "image": "http://localhost:3000/assets/images/products/product1.png",
+            "price": 105,
+            "text": "Подвеска",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 1,
+            "image": "http://localhost:3000/assets/images/products/product2.png",
+            "price": 206,
+            "text": "Свечи",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 2,
+            "image": "http://localhost:3000/assets/images/products/product3.png",
+            "price": 300,
+            "text": "Радиатор",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 3,
+            "image": "http://localhost:3000/assets/images/products/product4.png",
+            "price": 91,
+            "text": "Турбина",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 4,
+            "image": "http://localhost:3000/assets/images/products/product5.png",
+            "price": 507,
+            "text": "Трансмиссионный вал",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 5,
+            "image": "http://localhost:3000/assets/images/products/product6.png",
+            "price": 400,
+            "text": "Коробка передач",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 6,
+            "image": "http://localhost:3000/assets/images/products/product1.png",
+            "price": 105,
+            "text": "Подвеска",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 7,
+            "image": "http://localhost:3000/assets/images/products/product2.png",
+            "price": 206,
+            "text": "Свечи",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 8,
+            "image": "http://localhost:3000/assets/images/products/product3.png",
+            "price": 300,
+            "text": "Радиатор",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 9,
+            "image": "http://localhost:3000/assets/images/products/product4.png",
+            "price": 91,
+            "text": "Турбина",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 10,
+            "image": "http://localhost:3000/assets/images/products/product5.png",
+            "price": 507,
+            "text": "Трансмиссионный вал",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 11,
+            "image": "http://localhost:3000/assets/images/products/product6.png",
+            "price": 400,
+            "text": "Коробка передач",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 12,
+            "image": "http://localhost:3000/assets/images/products/product1.png",
+            "price": 105,
+            "text": "Подвеска",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 13,
+            "image": "http://localhost:3000/assets/images/products/product2.png",
+            "price": 206,
+            "text": "Свечи",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 14,
+            "image": "http://localhost:3000/assets/images/products/product3.png",
+            "price": 300,
+            "text": "Радиатор",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 15,
+            "image": "http://localhost:3000/assets/images/products/product4.png",
+            "price": 91,
+            "text": "Турбина",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 16,
+            "image": "http://localhost:3000/assets/images/products/product5.png",
+            "price": 507,
+            "text": "Трансмиссионный вал",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 17,
+            "image": "http://localhost:3000/assets/images/products/product6.png",
+            "price": 400,
+            "text": "Коробка передач",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },        {
+            "id": 18,
+            "image": "http://localhost:3000/assets/images/products/product1.png",
+            "price": 105,
+            "text": "Подвеска",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 19,
+            "image": "http://localhost:3000/assets/images/products/product2.png",
+            "price": 206,
+            "text": "Свечи",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 20,
+            "image": "http://localhost:3000/assets/images/products/product3.png",
+            "price": 300,
+            "text": "Радиатор",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 21,
+            "image": "http://localhost:3000/assets/images/products/product4.png",
+            "price": 91,
+            "text": "Турбина",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 22,
+            "image": "http://localhost:3000/assets/images/products/product5.png",
+            "price": 507,
+            "text": "Трансмиссионный вал",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        },
+        {
+            "id": 23,
+            "image": "http://localhost:3000/assets/images/products/product6.png",
+            "price": 400,
+            "text": "Коробка передач",
+            "additional": "Lorem ipsum assjiw jcjxiaj aksjla suioah ajsijo jiasjdoj kjsklaj"
+        }
+    ],
+
+    "service": [
+        {
+            "id": 0,
+            "type": "Услуги",
+            "title": "Аренда корта"
+        },
+        {
+            "id": 1,
+            "type": "Услуги",
+            "title": "Детский теннис"
+        },
+        {
+            "id": 2,
+            "type": "Услуги",
+            "title": "Сборы команд"
+        },
+        {
+            "id": 3,
+            "type": "Турниры",
+            "title": "Расписание"
+        }
+    ],
+    
+    "advantages": [
+        {
+            "id": 0,
+            "text": "Быстрое обслуживание",
+            "image": "http://localhost:3000/assets/images/advantages/advantage1.png"
+        },
+        {
+            "id": 1,
+            "text": "Разнообразие товаров",
+            "image": "http://localhost:3000/assets/images/advantages/advantage2.png"
+        },
+        {
+            "id": 2,
+            "text": "Качественный сервис",
+            "image": "http://localhost:3000/assets/images/advantages/advantage3.png"
+        }
+    ],
+
+    "workers": [
+        {
+            "id": 0,
+            "name": "Pulvinar aliquam",
+            "text": "Arcu elit massa amet turpis vel consequat pellentesque sit.",
+            "image": "http://localhost:3000/assets/images/coaches/coach1.png"
+        },
+        {
+            "id": 1,
+            "name": "Pretium odio",
+            "text": "Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo lorem morbi quis.",
+            "image": "http://localhost:3000/assets/images/coaches/coach2.png"
+        },
+        {
+            "id": 2,
+            "name": "Aliquet consectetur",
+            "text": "Id sapien sed nibh fermentum massa posuere ipsum. Diam in.",
+            "image": "http://localhost:3000/assets/images/coaches/coach3.png"
+        },
+        {
+            "id": 3,
+            "name": "Blandit augue",
+            "text": "Scelerisque accumsan pretium justo, vitae elit. Dolor semper morbi sit auctor.",
+            "image": "http://localhost:3000/assets/images/coaches/coach4.png"
+        },
+        {
+            "id": 4,
+            "name": "Lorem lacus",
+            "text": "Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus.",
+            "image": "http://localhost:3000/assets/images/coaches/coach5.png"
+        },
+        {
+            "id": 5,
+            "name": "Sed erat",
+            "text": "Quis ullamcorper pretium lacus risus tellus dolor etiam.",
+            "image": "http://localhost:3000/assets/images/coaches/coach6.png"
+        },
+        {
+            "id": 6,
+            "name": "Pulvinar aliquam",
+            "text": "Arcu elit massa amet turpis vel consequat pellentesque sit.",
+            "image": "http://localhost:3000/assets/images/coaches/coach1.png"
+        },
+        {
+            "id": 7,
+            "name": "Pretium odio",
+            "text": "Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo lorem morbi quis.",
+            "image": "http://localhost:3000/assets/images/coaches/coach2.png"
+        },
+        {
+            "id": 8,
+            "name": "Aliquet consectetur",
+            "text": "Id sapien sed nibh fermentum massa posuere ipsum. Diam in.",
+            "image": "http://localhost:3000/assets/images/coaches/coach3.png"
+        },
+        {
+            "id": 9,
+            "name": "Blandit augue",
+            "text": "Scelerisque accumsan pretium justo, vitae elit. Dolor semper morbi sit auctor.",
+            "image": "http://localhost:3000/assets/images/coaches/coach4.png"
+        },
+        {
+            "id": 10,
+            "name": "Lorem lacus",
+            "text": "Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus.",
+            "image": "http://localhost:3000/assets/images/coaches/coach5.png"
+        },
+        {
+            "id": 11,
+            "name": "Sed erat",
+            "text": "Quis ullamcorper pretium lacus risus tellus dolor etiam.",
+            "image": "http://localhost:3000/assets/images/coaches/coach6.png"
+        }
+    ],
+
+    "serviceSlide": [
+        {
+            "id": 0,
+            "title": "Уютное кафе",
+            "image": "http://localhost:3000/assets/images/services/service1.png"
+        },
+        {
+            "id": 1,
+            "title": "Удобный корт",
+            "image": "http://localhost:3000/assets/images/services/service2.png"
+        },
+        {
+            "id": 2,
+            "title": "Крутые ракетки",
+            "image": "http://localhost:3000/assets/images/services/service3.png"
+        }
+    ],
+
+    "boxes": [
+        {
+            "id": 0,
+            "image": "http://localhost:3000/assets/images/courts/inner1.jpg",
+            "title": "Ремонт машин"
+        },
+        {
+            "id": 1,
+            "image": "http://localhost:3000/assets/images/courts/inner2.jpg",
+            "title": "Безопасная система"
+        },
+        {
+            "id": 2,
+            "image": "http://localhost:3000/assets/images/courts/inner3.png",
+            "title": "Уютное кафе"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+.cartBox{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn > .circle{
+    opacity: 0.6;
+}
+
+.btn:hover > .circle{
+    opacity: 1;
+}
+
+.circle{
+    background-color: #ffe1e1;
+    padding: 3rem 3.5rem;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.quantity{
+    color: #ff9696;
+    font-weight: bold;
+}

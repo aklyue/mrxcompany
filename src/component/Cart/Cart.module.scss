@@ -1,0 +1,332 @@
+.mainBox>div {
+    position: relative;
+    display: grid;
+    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    justify-items: center;
+
+    .container {
+
+
+        .product {
+            position: relative;
+            padding: 1.25rem 2.5rem;
+            border: 0.0625rem solid #f7e1e1;
+            height: 38rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .price {
+                color: #999999;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.225rem;
+            }
+
+            .name {
+                font-weight: bold;
+                font-size: 1.125rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .imgContainer {
+                height: 25rem;
+                overflow: hidden;
+
+                .img {
+                    width: 100%;
+                }
+
+                margin-bottom: 2rem;
+            }
+
+
+            .btn1 {
+                position: absolute;
+                bottom: 1.25rem;
+                right: 2.5rem;
+                width: 8.5625rem;
+                height: 2.8125rem;
+                padding: 0.625rem 1.25rem;
+                background-color: rgb(214, 151, 151);
+                color: white;
+                font-size: 1.125rem;
+                font-weight: 600;
+                line-height: 1.575rem;
+                transition: all 0.2s;
+                text-align: center;
+            }
+
+            .btn {
+                position: absolute;
+                bottom: 1.25rem;
+                left: 2.5rem;
+                width: 8.5625rem;
+                height: 2.8125rem;
+                padding: 0.625rem 1.25rem;
+                background-color: rgb(214, 151, 151);
+                color: white;
+                font-size: 1.125rem;
+                font-weight: 600;
+                line-height: 1.575rem;
+                transition: all 0.2s;
+                text-align: center;
+            }
+
+            .btn1:hover {
+                opacity: 0.8;
+            }
+
+            .btn1:active {
+                background-color: rgb(155, 113, 113);
+            }
+
+            .btn:hover {
+                opacity: 0.8;
+            }
+
+            .btn:active {
+                background-color: rgb(155, 113, 113);
+            }
+
+            .quantity {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 1.5rem 0 0 0;
+
+
+                .btnQnt {
+                    color: white;
+                    font-size: 1.125rem;
+                    border-radius: 0.5rem;
+                    font-weight: 600;
+                    padding: 0.225rem 0.525rem;
+                    background-color: rgb(214, 151, 151);
+                    margin: 0 1rem;
+                    transition: all 0.2s;
+                }
+
+                .btnQnt:hover {
+                    opacity: 0.8;
+                }
+
+                .btnQnt:active {
+                    background-color: rgb(155, 113, 113);
+                }
+
+            }
+        }
+    }
+
+    .totalPrice {
+        font-size: 1.2rem;
+        position: absolute;
+        bottom: -7rem;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+
+        .btnOrder {
+            width: 8.5625rem;
+            height: 2.8125rem;
+            padding: 0.625rem 1.25rem;
+            background-color: rgb(214, 151, 151);
+            color: white;
+            font-size: 1.125rem;
+            font-weight: 600;
+            line-height: 1.575rem;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .btnOrder:hover {
+            opacity: 0.8;
+        }
+
+        .btnOrder:active {
+            background-color: rgb(155, 113, 113);
+        }
+    }
+}
+
+.emptyCart {
+    text-align: center;
+    font-size: 3rem;
+    color: #d6d6d6;
+}
+
+@media (max-width: 1024px) {
+    .mainBox>div {
+        position: relative;
+        display: grid;
+        padding: 0 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        justify-items: center;
+
+        .container {
+
+
+            .product {
+                position: relative;
+                padding: 1.25rem 2.5rem;
+                border: 0.0625rem solid #f7e1e1;
+                height: 28rem;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .price {
+                    color: #999999;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1.225rem;
+                }
+
+                .name {
+                    font-weight: bold;
+                    font-size: 1.125rem;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+                .imgContainer {
+                    height: 10rem;
+                    overflow: hidden;
+
+                    .img {
+                        width: 100%;
+                    }
+
+                    margin-bottom: 2rem;
+                }
+
+
+                .btn {
+                    position: absolute;
+                    bottom: 1.25rem;
+                    left: 2.5rem;
+                    width: 5.5625rem;
+                    height: 2rem;
+                    padding: 0.625rem 0.6rem;
+                    background-color: rgb(214, 151, 151);
+                    color: white;
+                    font-size: 0.6rem;
+                    font-weight: 600;
+                    line-height: 1rem;
+                    transition: all 0.2s;
+                    text-align: center;
+                }
+
+                .btn1 {
+                    position: absolute;
+                    bottom: 1.25rem;
+                    right: 2.5rem;
+                    width: 5.5625rem;
+                    height: 2rem;
+                    padding: 0.625rem 0.6rem;
+                    background-color: rgb(214, 151, 151);
+                    color: white;
+                    font-size: 0.6rem;
+                    font-weight: 600;
+                    line-height: 1rem;
+                    transition: all 0.2s;
+                    text-align: center;
+                }
+
+                .btn1:hover {
+                    opacity: 0.8;
+                }
+
+                .btn1:active {
+                    background-color: rgb(155, 113, 113);
+                }
+
+                .btn:hover {
+                    opacity: 0.8;
+                }
+
+                .btn:active {
+                    background-color: rgb(155, 113, 113);
+                }
+
+                .quantity {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 1.5rem 0 0 0;
+                    font-size: 0.6rem;
+
+
+                    .btnQnt {
+                        color: white;
+                        font-size: 1.125rem;
+                        border-radius: 0.5rem;
+                        font-weight: 600;
+                        padding: 0.225rem 0.525rem;
+                        background-color: rgb(214, 151, 151);
+                        margin: 0 1rem;
+                        transition: all 0.2s;
+                    }
+
+                    .btnQnt:hover {
+                        opacity: 0.8;
+                    }
+
+                    .btnQnt:active {
+                        background-color: rgb(155, 113, 113);
+                    }
+
+                }
+            }
+        }
+
+        .totalPrice {
+            font-size: 1.2rem;
+            position: absolute;
+            bottom: -7rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-direction: column;
+            align-items: center;
+
+            .btnOrder {
+                width: 8.5625rem;
+                height: 2.8125rem;
+                padding: 0.625rem 1.25rem;
+                background-color: rgb(214, 151, 151);
+                color: white;
+                font-size: 1.125rem;
+                font-weight: 600;
+                line-height: 1.575rem;
+                transition: all 0.2s;
+                text-align: center;
+            }
+
+            .btnOrder:hover {
+                opacity: 0.8;
+            }
+
+            .btnOrder:active {
+                background-color: rgb(155, 113, 113);
+            }
+        }
+    }
+
+    .emptyCart {
+        text-align: center;
+        font-size: 3rem;
+        color: #d6d6d6;
+    }
+}
