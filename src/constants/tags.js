@@ -4,6 +4,7 @@ export const taglines = [
         text2: "Товары",
         text3: "Об автосервисе",
         text4: "Корзина",
-        text5: "Контакты"
+        text5: "Контакты",
+        text6: "Заказ"
     }
 ]
