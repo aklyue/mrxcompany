@@ -12,7 +12,8 @@ import { taglines } from "./constants/tags"
 import Footer from "./component/Footer";
 import CartPage from "./pages/CartPage";
 import ContactsPage from "./pages/ContactsPage";
-import SpecificWorkerPage from "./pages/SpecificWorkerPage/SpecificWorkerPage";
+import SpecificWorkerPage from "./pages/SpecificWorkerPage";
+import OrderPage from "./pages/OrderPage";
 
 
 const Router = () => {
@@ -82,6 +83,13 @@ const Router = () => {
                         <>
                             <Header image={headerThree} text={taglines[0].text5} />
                             <ContactsPage />
+                            <Footer />
+                        </>
+                    } />
+                    <Route path="/order" element={
+                        <>
+                            <Header image={headerOne} text={taglines[0].text6} />
+                            <OrderPage />
                             <Footer />
                         </>
                     } />

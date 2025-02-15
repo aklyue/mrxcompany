@@ -34,7 +34,7 @@ const PictureSwiper = () => {
                 </div>
             </div>
             <div className={c.swiperWrapper}>
-                <Swiper onSwiper={(element) => { initialize(element) }} pagination modules={[Autoplay]} autoplay={{ delay: 2500, disableOnInteraction: false }} loop grabCursor spaceBetween={30} className={c.swiper}>
+                <Swiper onSwiper={(element) => { initialize(element) }} pagination grabCursor modules={[Autoplay]} autoplay={{ delay: 2500, disableOnInteraction: false }} loop spaceBetween={30} className={c.swiper}>
                     {boxes.map(box => <SwiperSlide className={c.slide} key={box.id}>
                         <img className={c.boxImage} src={box.image} alt={box.title} />
                         {box.title && <div className={c.boxTitle}>{box.title}</div>}
