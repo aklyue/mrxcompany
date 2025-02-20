@@ -1,0 +1,81 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .orderBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+    .orderForm {
+      display: flex;
+      flex-direction: column;
+
+      .noticeText {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #333;
+      }
+
+      .inputBox {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(214, 151, 151);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.2s;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+    }
+
+    .priceBox {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #444;
+    }
+  }
+}
+
+.emptyBox {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  
+  .cartTxt {
+    font-weight: bold;
+    color: #555;
+  }
+}
+
